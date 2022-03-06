@@ -68,8 +68,6 @@
 >   </div>
 > </div>
 
-![Screenshots](https://blog.vuestorefront.io/wp-content/uploads/2020/03/3-views-Vue-Storefront-.png)
-
 # Supported platforms
 
 <p align="center" valign="middle">
