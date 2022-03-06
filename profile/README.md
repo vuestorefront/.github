@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/1626923/137092657-fb398d20-b592-4661-a1f9-4135db0b61d5.png" alt="Vue Storefront" height="80px" />
+  <img src="https://user-images.githubusercontent.com/1626923/156934585-5c585b9f-53ff-4eee-beb3-a3a410c48d47.png" alt="Vue Storefront" />
 </p>
 
 <h3 align="center">
@@ -20,6 +20,20 @@
     </a>
     <a href="https://discord.gg/vuestorefront">
         <img alt="Chat with us on Discord" src="https://img.shields.io/discord/770285988244750366?label=join%20discord&logo=Discord&logoColor=white" />
+    </a>
+</p>
+<p align="center">
+    <a href="http://commitizen.github.io/cz-cli/">
+        <img alt="Commitizen friendly" src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg" />
+    </a>
+    <a href="https://github.com/vuestorefront/vue-storefront">
+        <img alt="License" src="https://img.shields.io/github/license/vuestorefront/vue-storefront" />
+    </a>
+    <a href="https://github.com/vuestorefront/vue-storefront/pulls">
+        <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" />
+    </a>
+    <a href="https://coveralls.io/github/vuestorefront/vue-storefront/?branch=next">
+        <img alt="Coverage Status" src="https://coveralls.io/repos/github/vuestorefront/vue-storefront/badge.svg?branch=next" />
     </a>
 </p>
 
@@ -53,6 +67,8 @@
 >       </li>
 >   </div>
 > </div>
+
+![Screenshots](https://blog.vuestorefront.io/wp-content/uploads/2020/03/3-views-Vue-Storefront-.png)
 
 # Supported platforms
 
@@ -114,8 +130,10 @@
 
 ## Links
 
-- 🖥  Visit us: https://vuestorefront.io
+- 🖥  Demo: https://demo-ct.vuestorefront.io
+- 📦  Installation: https://docs.vuestorefront.io/v2/general/installation.html
 - 📘  Documentation: https://docs.vuestorefront.io/v2/
 - 👥  Discord Community: https://discord.gg/vuestorefront/
 - 🐦  Twitter: https://twitter.com/VueStorefront
-- 🌟  [Live Projects List](https://www.vuestorefront.io/live-projects/?utm_source=github.com&utm_medium=referral&utm_campaign=readme)
+- 🎥  YouTube: https://www.youtube.com/c/VueStorefront
+- 🌟  [Over 1000+ Live Stores, check the list!](https://www.vuestorefront.io/live-projects/?utm_source=github.com&utm_medium=referral&utm_campaign=readme)
