@@ -1,0 +1,22 @@
+# https://www.notion.so/vuestorefront/How-to-add-SpeedCurve-GitHub-action-f0c9ed35f994473083be0dde44802e5b
+name: "Run SpeedCurve test"
+
+on:
+  deployment_status
+
+jobs:
+  speedcurve:
+    if: github.event.deployment_status.state == 'success' && github.event.deployment_status.deployment.ref == 'refs/heads/develop'
+    runs-on: ubuntu-latest
+    steps:
+      # the "deploy this Docker container" curl to VSF Cloud only starts the deployment, we don't know for sure when does it end
+      - name: 'Wait for container deployed on VSF Cloud to come online'
+        run: 'sleep 300'
+        shell: 'bash'
+
+      - name: 'Ask SpeedCurve to run performance tests'
+        uses: SpeedCurve-Metrics/speedcurve-test-action@v1.2.2
+        with:
+          api_key: ${{ secrets.SPEEDCURVE_API_KEY }}
+          site_id: # your site id here, it's 6 digits
+          note: commit ${{ github.event.deployment.sha }}
