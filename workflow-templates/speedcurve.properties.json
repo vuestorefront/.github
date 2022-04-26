@@ -1,0 +1,4 @@
+{
+    "name": "Run SpeedCurve test",
+    "description": "Asks SpeedCurve to run a performance test for the given site. You'll need to have a secret SpeedCurve API key and the site_id related to your environment - if you don't have them, ask Piotr Grzywa"
+}
