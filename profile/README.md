@@ -140,7 +140,7 @@
 ## Links
 
 - 🖥  Demo: https://demo-ct.vuestorefront.io
-- 📦  Installation: https://docs.vuestorefront.io/v2/general/installation.html
+- 📦  Installation: https://docs.vuestorefront.io/v2/getting-started/installation.html
 - 📘  Documentation: https://docs.vuestorefront.io/v2/
 - 👥  Discord Community: https://discord.gg/vuestorefront/
 - 🐦  Twitter: https://twitter.com/VueStorefront
