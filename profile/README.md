@@ -74,7 +74,7 @@ Why did we start? Because we struggled with all of those challenges in our daily
 
 On August 15th, 2017 the very first commit message `Initial commit` was created. Fast forward to these days, we have more than 16,000 commits, nearly 300 contributors and more than 2,500 issues closed and resolved. 
 
-This would be impossible without our active and vibrant community of more than 5,000 members and 120+ partner agencies 🤗
+This would not be possible without our active and vibrant community of more than 5,000 members and 120+ partner agencies 🤗
 
 ## 🏡 Vue Storefront 
 Frontend Drives Customer Experience
