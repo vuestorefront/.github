@@ -93,7 +93,7 @@ Become part of Vue Storefront community. Get to know each other, learn, ask for 
 
 - [Vue Storefront Community](https://github.com/orgs/vuestorefront-community/repositories) - check our community repositories
 - [Discord](https://discord.vuestorefront.io/) - come chat with us and community
-- [Twitter](https://twitter.com/VueStorefront) - follow our latest news
+- [Twitter](https://twitter.com/VSFdevelopers) - follow our latest news
 - [YouTube](https://www.youtube.com/c/VueStorefront) - learn more about Vue Storefront
 
 <br /><br /><br /><br />Place for banner<br /><br /><br /><br />
