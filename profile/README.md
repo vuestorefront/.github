@@ -105,5 +105,5 @@ We are always looking for talented people. Join us or get to know us better.
 - [Carrers](https://vuestorefront.io/career/roles) - Our open positions
 - [About us](https://vuestorefront.io/about-us) - learn more about us
 
-[We are happy to hear from you. Contact us](hello@vuestorefront.io)
+[We are happy to hear from you. Contact us](mailto:hello@vuestorefront.io)
 
