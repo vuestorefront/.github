@@ -9,6 +9,10 @@
 <p align="center">
     Vue Storefront is a set of Open Source boilerplates, libraries and integrations that simplify and accelerate building eCommerce frontends.
 </p>
+<p align="center">
+<a href="https://www.vuestorefront.io/live-projects/?utm_source=github.com&utm_medium=referral&utm_campaign=readme">🚀 Over 2000+ Live Stores!!</a>
+
+</p>
 
 <p align="center">
   <a href="https://github.com/vuestorefront/vue-storefront">
@@ -124,4 +128,4 @@
 - 👥  Discord Community: https://discord.vuestorefront.io/
 - 🐦  Twitter: https://twitter.com/VueStorefront
 - 🎥  YouTube: https://www.youtube.com/c/VueStorefront
-- 🌟  [Over 1000+ Live Stores, check the list!](https://www.vuestorefront.io/live-projects/?utm_source=github.com&utm_medium=referral&utm_campaign=readme)
+- 🌟  [Over 2000+ Live Stores, check the list!](https://www.vuestorefront.io/live-projects/?utm_source=github.com&utm_medium=referral&utm_campaign=readme)
