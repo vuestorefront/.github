@@ -36,38 +36,6 @@
     </a>
 </p>
 
-> # #TechForUkraine
-> <div align="center">
->   <p>
->      <img src="https://user-images.githubusercontent.com/1626923/155853691-d6d0a541-d3b9-40bf-b8f5-2d38303e9e49.png" />
->   </p>
->   <h2><strong>Russia’s military aggression against Ukraine.</strong></h2>
->   <div align="left">
->     <h3>How can you support Ukrainian civil society?</h3>
->     All help is needed. If you are not able to help locally, by sheltering a fellow Ukrainian, you can also:
->     <ul>
->       <li>
->           Support the Ukraine Armed forces directly by sending funding to the special accounts.<br />
->           <a href="https://bank.gov.ua/en/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi"
->               target="_blank">NBU Special Account to Raise Funds for Ukraine’s Armed Forces</a>
->       </li>
->       <li>
->           Help the ICRC (Red Cross) with donations.<br />
->           <a href="https://www.icrc.org/en/where-we-work/europe-central-asia/ukraine" target="_blank">Ukrainian
->               Red Cross Society</a>
->       </li>
->       <li>
->           Donate to the United Help Ukraine.<br />
->           <a href="https://unitedhelpukraine.org/" target="_blank">United Help Ukraine</a>
->       </li>
->       <li>
->           Donate to Voices of Children<br />
->           <a href="https://voices.org.ua/en/" target="_blank">Voices of Children</a>
->       </li>
->   </div>
-> </div>
-<br />
-
 Vue Storefront is an ecosystem of developer tools that accelerate and simplify building eCommerce Storefronts, which was built with an open-source mindset and the trust of a global community. It is the result of our effort to provide developers with modern and forward-thinking technical solutions crafted to meet common eCommerce industry challenges. 
 
 Why did we start? Because we struggled with all of those challenges in our daily work.
@@ -96,8 +64,9 @@ Become part of Vue Storefront community. Get to know each other, learn, ask for 
 - [Twitter](https://twitter.com/VSFdevelopers) - follow our latest news
 - [YouTube](https://www.youtube.com/c/VueStorefront) - learn more about Vue Storefront
 
-<br /><br /><br /><br />Place for banner<br /><br /><br /><br />
-
+<a target="_blank" href="https://vuestorefront.io/developer-newsletter">
+  <img alt="Sign up to Developer's Newsletter" src="https://user-images.githubusercontent.com/74229951/218061404-2451ad24-e018-4954-8238-9e3289369059.png">
+</a>
 
 ## 🏅We are hiring
 We are always looking for talented people. Join us or get to know us better.
@@ -107,3 +76,10 @@ We are always looking for talented people. Join us or get to know us better.
 
 [We are happy to hear from you. Contact us](mailto:hello@vuestorefront.io)
 
+## **#StandWithUkraine** 🇺🇦
+
+We at Vue Storefront express our support for the people of Ukraine and their right to live in a free and democratic country. We stand with Ukraine and we will continue to support the Ukrainian community.
+
+<a href="https://supportukrainenow.org/" target="_blank">
+    <img src="https://gcdnb.pbrd.co/images/bDfmujNpxjxy.png?o=1" />
+</a>
