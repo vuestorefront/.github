@@ -126,6 +126,6 @@
 - 📦  Installation: https://docs.vuestorefront.io/v2/getting-started/installation.html
 - 📘  Documentation: https://docs.vuestorefront.io/v2/
 - 👥  Discord Community: https://discord.vuestorefront.io/
-- 🐦  Twitter: https://twitter.com/VueStorefront
+- 🐦  Twitter: https://twitter.com/VSFDevelopers
 - 🎥  YouTube: https://www.youtube.com/c/VueStorefront
 - 🌟  [Over 2000+ Live Stores, check the list!](https://www.vuestorefront.io/live-projects/?utm_source=github.com&utm_medium=referral&utm_campaign=readme)
