@@ -79,10 +79,6 @@ We at Vue Storefront express our support for the people of Ukraine and their rig
         <img alt="BigCommerce" width="75" src="https://user-images.githubusercontent.com/1626923/156659123-12a987f5-a590-4971-810e-7594defc48f5.png" />
     </a>
     &nbsp;&nbsp;
-    <a title="Vendure" target="_blank" href="https://github.com/vuestorefront/vendure">
-        <img alt="Vendure" width="75" src="https://user-images.githubusercontent.com/1626923/156659153-fafdeb94-a34e-4e9e-8e8a-0f03afde9741.png" />
-    </a>
-    &nbsp;&nbsp;
     <a title="Odoo" target="_blank" href="https://github.com/vuestorefront-community/odoo">
         <img alt="Odoo" width="75" src="https://user-images.githubusercontent.com/1626923/156659136-55c8d696-febd-410e-ab72-b217e9e745e6.png" />
     </a>
