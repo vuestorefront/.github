@@ -58,6 +58,10 @@ We at Vue Storefront express our support for the people of Ukraine and their rig
         <img alt="commercetools" width="75" src="https://user-images.githubusercontent.com/1626923/156658926-532f44bd-f178-4bd9-ae72-1ca7d9984f57.png" />
     </a>
     &nbsp;&nbsp;
+    <a title="SAP" target="_blank" href="https://docs.vuestorefront.io/sapcc/">
+        <img alt="SAP" width="75" src="https://docs.vuestorefront.io/v2/integrations-logos/thumbnails/sap-commerce-cloud.png" />
+    </a>
+  &nbsp;&nbsp;
     <a title="Shopify" target="_blank" href="https://github.com/vuestorefront/shopify">
         <img alt="Shopify" width="75" src="https://user-images.githubusercontent.com/1626923/156658959-d8da60fd-9904-44f4-9823-11a3e821c155.png" />
     </a>
