@@ -6,6 +6,12 @@
     "before 5am on Monday"
   ],
   "branchPrefix": "deps/",
+  "nvm": {
+    "enabled": false
+  },
+  "ignoreDeps": [
+    "node"
+  ],
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
