@@ -15,7 +15,12 @@
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
-      "matchUpdateTypes": ["patch"],
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest"
+      ],
       "groupName": "all non-major dependency bump",
       "groupSlug": "all-patch",
       "automerge": true
