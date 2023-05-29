@@ -55,6 +55,12 @@
     {
       "matchPackageNames": ["swc-plugin-coverage-instrument"],
       "enabled": false
+    },
+    {
+      "enabled": false,
+      "matchDepTypes": [
+        "engines"
+      ]
     }
   ]
 }
