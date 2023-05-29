@@ -19,6 +19,12 @@
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
+      "matchUpdateTypes": ["major"],
+      "groupName": "all major dependency bump",
+      "groupSlug": "all-major"
+    },
+    {
+      "matchPackagePatterns": ["*"],
       "matchUpdateTypes": [
         "minor",
         "patch",
@@ -51,10 +57,6 @@
       "groupName": "definitelyTyped",
       "matchPackagePrefixes": ["@types/"],
       "automerge": true
-    },
-    {
-      "matchPackageNames": ["swc-plugin-coverage-instrument"],
-      "enabled": false
     },
     {
       "enabled": false,
