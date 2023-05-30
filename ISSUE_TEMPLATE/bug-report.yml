@@ -44,5 +44,5 @@ body:
     attributes:
       label: Logs
       description: |
-        Optional if provided reproduction. Please try not to insert an image but copy paste the log text.
+        Optional if you provided a reproduction. Please try not to insert an image but copy and paste the log text.
       render: shell-script
