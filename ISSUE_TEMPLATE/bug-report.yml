@@ -1,0 +1,48 @@
+name: "\U0001F41E Bug report"
+description: Create a report to help us improve Vue Storefront
+labels: ["pending triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Consider if you're looking to get help with something, or whether you think there's a bug with this project itself. If it's the former, we'd love to help you - but the best way to do that is through [asking for help](https://discord.vuestorefront.io) rather than reporting a bug.
+
+        Please create a minimal reproduction
+        👉 If possible, link to a reproduction repository. 
+        👉 Otherwise, write a step-by-step guide of how we can reproduce the issue
+  - type: textarea
+    id: bug-env
+    attributes:
+      label: Environment
+      description: Please tell up about your environment
+      placeholder: Environment
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Please provide a link to a repo that can reproduce the problem you ran into. A **minimal reproduction** is required unless you are absolutely sure that the issue is obvious and the provided information is enough to understand the problem. If a report is vague (e.g. just a generic error message) and has no reproduction, it will receive a "need reproduction" label. If no reproduction is provided we might close it.
+      placeholder: Reproduction
+    validations:
+      required: true
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is. If you intend to submit a PR for this issue, tell us in the description. Thanks!
+      placeholder: Bug description
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: If applicable, add any other context about the problem here
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: |
+        Optional if provided reproduction. Please try not to insert an image but copy paste the log text.
+      render: shell-script
