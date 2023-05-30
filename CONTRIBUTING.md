@@ -22,7 +22,7 @@ If you wish to contribute a new feature or bug fix that adheres to our existing 
 
 1. Fork and clone the repository: Start by forking the project repository and then clone it to your local machine. This will give you a local copy of the project to work with.
 
-2. Create a new branch: Make a new branch for your feature or bug fix. The branch name should be descriptive and reflect the nature of the change you're making. Please follow Conventional Commit guidelines listed here
+2. Create a new branch: Make a new branch for your feature or bug fix. The branch name should be descriptive and reflect the nature of the change you're making. Please follow Conventional Commit guidelines listed [here](https://www.conventionalcommits.org/en/v1.0.0/)
 
 3. Implement your changes: Ensure that your changes are clear, concise, and adequately tested.
 
