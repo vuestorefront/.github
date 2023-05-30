@@ -15,7 +15,17 @@ body:
     attributes:
       label: Environment
       description: Please tell up about your environment
-      placeholder: Environment
+      placeholder: |
+        Environment ------------------------------
+        - Operating System:
+        - Node Version:
+        - Project Versions (all applicable):
+        - Package Manager:  
+        - Builder:          
+        - User Config:      
+        - Runtime Modules:  
+        - Build Modules:
+        -------------------------------------------
     validations:
       required: true
   - type: textarea
