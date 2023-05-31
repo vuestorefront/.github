@@ -19,12 +19,6 @@
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
-      "matchUpdateTypes": ["major"],
-      "groupName": "all major dependency bump",
-      "groupSlug": "all-major"
-    },
-    {
-      "matchPackagePatterns": ["*"],
       "matchUpdateTypes": [
         "minor",
         "patch",
