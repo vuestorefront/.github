@@ -47,7 +47,7 @@
 We at Vue Storefront express our support for the people of Ukraine and their right to live in a free and democratic country. We stand with Ukraine and we will continue to support the Ukrainian community.
 
 <a href="https://supportukrainenow.org/" target="_blank">
-    <img src="https://gcdnb.pbrd.co/images/bDfmujNpxjxy.png?o=1" />
+    <img height="60" src="https://www.cardrates.com/images/uploads/2023/04/00SUNFeature.jpeg" />
 </a>
 
 # Supported platforms
