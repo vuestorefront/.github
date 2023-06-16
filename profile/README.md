@@ -103,8 +103,6 @@ We at Vue Storefront express our support for the people of Ukraine and their rig
 
 - 🖥  Demo: https://demo.vuestorefront.io/
 - 📦  Installation: https://docs.vuestorefront.io/v2/getting-started/installation.html
-- 🗺  Roadmap: https://github.com/orgs/vuestorefront/projects/4
-- 📦  Installation: https://docs.vuestorefront.io/v2/getting-started/installation.html 
 - 📘  Documentation: https://docs.vuestorefront.io/v2/
 - 👥  Discord Community: https://discord.vuestorefront.io/
 - 🐦  Twitter: https://twitter.com/VSFDevelopers
