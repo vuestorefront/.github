@@ -9,13 +9,19 @@
 <p align="center">
     Works with any backend
 </p>
+<p align="center">
+<a href="https://www.vuestorefront.io/live-projects/?utm_source=github.com&utm_medium=referral&utm_campaign=readme">🚀 Over 2000+ Live Stores!!</a>
+
+</p>
+
+
 
 <p align="center">
   <a href="https://github.com/vuestorefront/vue-storefront">
     <img alt="GitHub Repository Stars Count" src="https://img.shields.io/github/stars/vuestorefront/vue-storefront?style=social" />
   </a>
-    <a href="https://twitter.com/vuestorefront">
-        <img alt="Follow Us on Twitter" src="https://img.shields.io/twitter/follow/vuestorefront?style=social" />
+    <a href="https://twitter.com/vsfdevelopers">
+        <img alt="Follow Us on Twitter" src="https://img.shields.io/twitter/follow/vsfdevelopers?style=social" />
     </a>
     <a href="https://www.youtube.com/c/VueStorefront">
         <img alt="Subscribe on our Youtube Channel" src="https://img.shields.io/youtube/channel/subscribers/UCkm1F3Cglty3CE1QwKQUhhg?style=social" />
