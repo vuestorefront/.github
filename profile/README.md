@@ -48,10 +48,11 @@ This would not be possible without our active and vibrant community of more than
 Frontend Drives Customer Experience
 
 - [Vue Storefront](https://github.com/vuestorefront/vue-storefront) - Vue Storefront codebase
-- [Storefront UI](https://github.com/vuestorefront/storefront-ui) - Vue components library and design system
+- [Storefront UI](https://docs.storefrontui.io/v2/) - eCommerce-focused UI Components library for Vue and React
 - [Cloud](https://vuestorefront.io/cloud) - Cloud for Headless Commerce Storefront
 - [Demo](https://demo.vuestorefront.io/) - Vue Storefront official demo application
 - [Documentation](https://docs.vuestorefront.io/v2/) - Check our documentation and start building
+- [Vue Storefront SDK](https://docs.vuestorefront.io/sdk/sdk/) - **NEW** - Newest Vue Storefront framework agnostic SDK
 - [Over 1000+ Live Stores, check the list!](https://www.vuestorefront.io/live-projects/?utm_source=github.com&utm_medium=referral&utm_campaign=readme)
 
 [Check all our open source repositories](https://github.com/orgs/vuestorefront/repositories)
@@ -60,7 +61,7 @@ Frontend Drives Customer Experience
 Become part of Vue Storefront community. Get to know each other, learn, ask for help and build.
 
 - [Vue Storefront Community](https://github.com/orgs/vuestorefront-community/repositories) - check our community repositories
-- [Discord](https://discord.vuestorefront.io/) - come chat with us and community
+- [Discord](https://discord.vuestorefront.io/) - come chat with us and the community
 - [Twitter](https://twitter.com/VSFdevelopers) - follow our latest news
 - [YouTube](https://www.youtube.com/c/VueStorefront) - learn more about Vue Storefront
 
