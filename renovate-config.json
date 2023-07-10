@@ -19,13 +19,19 @@
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
+      "matchUpdateTypes": ["major"],
+      "groupName": "all major dependency bump",
+      "groupSlug": "all-major"
+    },
+    {
+      "matchPackagePatterns": ["*"],
       "matchUpdateTypes": [
         "minor",
         "patch",
         "pin",
         "digest"
       ],
-      "groupName": "all non-major dependency bump",
+      "groupName": "all major and patch dependency bump",
       "groupSlug": "all-patch",
       "matchDepTypes": [
         "dependencies",
