@@ -31,7 +31,7 @@
         "pin",
         "digest"
       ],
-      "groupName": "all major and patch dependency bump",
+      "groupName": "all minor and patch dependency bump",
       "groupSlug": "all-patch",
       "matchDepTypes": [
         "dependencies",
