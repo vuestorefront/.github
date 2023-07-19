@@ -1,0 +1,55 @@
+on:
+  pull_request:
+    types: ['opened', 'edited', 'reopened', 'synchronize']
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  continous-integration:
+    name: 'Continuous Integration'
+    uses: vuestorefront/integrations-github-workflows/.github/workflows/continuous-integration.yml@main
+    secrets: inherit
+    with:
+      # Set this to true if your package is meant to be published only on VSF's  private NPM repository,
+      # and not on the public global NPM. False publishes to public NPM
+      enterprise: false 
+
+      # Set this to true if your package is meant to be published only on VSF's private NPM repository,
+      # and not on the public global NPM. False publishes to public NPM
+      
+      # If you set "true" here, you need to have repository secrets added in GitHub named exactly:
+      # - NPM_USER
+      # - NPM_PASS
+      # - NPM_EMAIL 
+      # Those are the username, password and e-mail of the Verdaccio user used to download dependencies from *PRIVATE* NPM repository
+      
+
+  # SonarCloud
+  # Duplicate/remove the below jobs depending on how many monorepo packages you track with SonarCloud
+  # You can set "if: false" to disable the job (so everyone can see it's not running), or just delete the .yml block 
+  # Remember that you need to add a SonarCloud project here: https://sonarcloud.io/projects/create  
+  # You need to be a SonarCloud admin to do that. If you're not one, ask on the #itops Slack channel
+
+  sonarcloud-package1:
+    name: 'SonarCloud Package 1'
+    needs: [continous-integration]
+    uses: vuestorefront/integrations-github-workflows/.github/workflows/sonarcloud.yml@main
+    secrets:
+      SONARCLOUD_TOKEN: ${{ secrets.SONARCLOUD_TOKEN }}
+    with:
+      project_key: 'vuestorefront_yourprojecthere_package1'
+      package_name: 'package1'
+      exclusions: '*.config.js,src/index.ts,src/api-extractor-data.ts,**/types/**'
+
+  sonarcloud-package2:
+    name: 'SonarCloud SDK'
+    needs: [continous-integration]
+    uses: vuestorefront/integrations-github-workflows/.github/workflows/sonarcloud.yml@main
+    secrets:
+      SONARCLOUD_TOKEN: ${{ secrets.SONARCLOUD_TOKEN }}
+    with:
+      project_key: 'vuestorefront_yourprojecthere_package2'
+      package_name: 'package2'
+      exclusions: '*.config.js,*.config.*.ts,src/index.ts,src/connector.ts,src/api-extractor-data.ts,**/types/**,'
