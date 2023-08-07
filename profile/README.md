@@ -59,7 +59,7 @@ Frontend Drives Customer Experience
 - [Demo](https://demo.vuestorefront.io/) - Vue Storefront official demo application
 - [Documentation](https://docs.vuestorefront.io/v2/) - Check our documentation and start building
 - [Vue Storefront SDK](https://docs.vuestorefront.io/sdk/sdk/) - **NEW** - Newest Vue Storefront framework agnostic SDK
-- [Over 1000+ Live Stores, check the list!](https://www.vuestorefront.io/live-projects/?utm_source=github.com&utm_medium=referral&utm_campaign=readme)
+- [Over 2000+ Live Stores, check the list!](https://www.vuestorefront.io/live-projects/?utm_source=github.com&utm_medium=referral&utm_campaign=readme)
 
 [Check all our open source repositories](https://github.com/orgs/vuestorefront/repositories)
 
