@@ -72,7 +72,7 @@ Frontend Drives Customer Experience
 Become part of Alokai community. Get to know each other, learn, ask for help and build.
 
 - [Alokai Community](https://github.com/orgs/vuestorefront-community/repositories) - check our community repositories
-- [Discord](https://discord.vuestorefront.com/) - come chat with us and the community
+- [Discord](https://discord.vuestorefront.io/) - come chat with us and the community
 - [Twitter](https://twitter.com/useAlokai) - follow our latest news
 - [YouTube](https://www.youtube.com/@useAlokai) - learn more about Alokai
 
