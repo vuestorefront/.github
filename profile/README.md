@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <img src="https://github.com/vuestorefront/.github/blob/main/profile/alokai-logo-w.png?raw=true" alt="Alokai" />
+  <img src="https://github.com/vuestorefront/.github/assets/45824492/d3d5989f-0b48-4883-9bcc-ffad8901f783?raw=true" alt="Alokai" />
 </p>
 
 <h3 align="center">
