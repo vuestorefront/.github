@@ -1,47 +1,82 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "timezone": "Europe/Warsaw",
-  "extends": ["config:base", ":disableDependencyDashboard", ":semanticCommitTypeAll(chore)"],
+  "extends": [
+    "config:recommended",
+    ":separatePatchReleases",
+    ":semanticCommits",
+    ":label(dependencies)",
+    "helpers:pinGitHubActionDigests",
+    "security:openssf-scorecard"
+  ],
+  "dependencyDashboard": false,
   "npm": {
     "commitMessageTopic": "{{prettyDepType}} {{depName}}",
     "commitMessagePrefix": "chore(deps): :arrow_up: "
   },
   "schedule": [
-    "before 5am on Monday"
+    "* 4-12 * * 1"
   ],
-  "branchPrefix": "deps/",
-  "nvm": {
-    "enabled": false
-  },
-  "ignoreDeps": [
-    "node"
-  ],
+  "automergeStrategy": "squash",
+  "internalChecksAsSuccess": true,
+  "configMigration": true,
   "packageRules": [
+
     {
-      "matchPackagePatterns": ["*"],
-      "matchUpdateTypes": ["major"],
-      "groupName": "all major dependency bump",
-      "groupSlug": "all-major"
+      "matchUpdateTypes": ["patch"],
+      "minimumReleaseAge": "3 days",
+      "addLabels": ["patch"],
+      "groupName": "all patch dependency bump",
+      "groupSlug": "all-patch",
+      "automerge": true
     },
     {
-      "matchPackagePatterns": ["*"],
-      "matchUpdateTypes": [
-        "minor",
-        "patch",
-        "pin",
-        "digest"
-      ],
-      "groupName": "all minor and patch dependency bump",
-      "groupSlug": "all-patch",
-      "matchDepTypes": [
-        "dependencies",
-        "devDependencies"
+      "matchUpdateTypes": ["minor"],
+      "minimumReleaseAge": "7 days",
+      "addLabels": ["minor"],
+      "automerge": false
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "minimumReleaseAge": "30 days",
+      "addLabels": ["major"],
+      "reviewersFromCodeOwners": true,
+      "automerge": false
+    },
+
+    {
+      "matchUpdateTypes": ["digest"],
+      "addLabels": ["digest"],
+      "automerge": true
+    },
+
+    {
+      "description": "Auto-pair @types/X with X by stripping the @types/ prefix from the group key so both share the same group.",
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["@types/*", "!@types/node"],
+      "groupName": "{{{replace '^@types/' '' depName}}}"
+    },
+
+    {
+      "extends": "packages:linters",
+      "groupName": "linters",
+      "matchPackageNames": [
+        "globals"
       ],
       "automerge": true
     },
     {
-      "extends": "packages:linters",
-      "groupName": "linters",
+      "groupName": "vitest packages",
+      "matchPackageNames": [
+        "@vitest/**",
+        "vitest",
+        "globals-vitest"
+      ],
+      "automerge": true
+    },
+    {
+      "extends": "packages:test",
+      "groupName": "test packages",
       "automerge": true
     },
     {
@@ -49,9 +84,39 @@
       "groupName": "postcss packages"
     },
     {
-      "extends": "packages:test",
-      "groupName": "test packages",
-      "automerge": true
+      "description": "Vite build tool and Vite plugins",
+      "matchPackageNames": ["vite", "@vitejs/*", "vite-plugin-*"],
+      "groupName": "Vite",
+      "semanticCommitScope": "vite"
+    },
+    {
+      "description": "Tailwind CSS and PostCSS toolchain",
+      "matchPackageNames": [
+        "tailwindcss",
+        "@tailwindcss/*",
+        "postcss",
+        "autoprefixer"
+      ],
+      "groupName": "Tailwind CSS",
+      "semanticCommitScope": "tailwind"
+    },
+    {
+      "description": "Playwright E2E testing",
+      "matchPackageNames": ["playwright", "@playwright/*"],
+      "groupName": "Playwright",
+      "semanticCommitScope": "playwright"
+    },
+    {
+      "description": "Changesets - versioning and changelog management",
+      "matchPackageNames": ["@changesets/*"],
+      "groupName": "Changesets",
+      "semanticCommitScope": "changesets"
+    },
+    {
+      "groupName": "vueuse",
+      "matchPackageNames": [
+        "@vueuse/**"
+      ]
     },
     {
       "groupName": "definitelyTyped",
