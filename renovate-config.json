@@ -52,6 +52,11 @@
     },
 
     {
+      "matchDepTypes": ["devDependencies"],
+      "automerge": true
+    },
+
+    {
       "description": "Auto-pair @types/X with X by stripping the @types/ prefix from the group key so both share the same group.",
       "matchDatasources": ["npm"],
       "matchPackageNames": ["@types/*", "!@types/node"],
