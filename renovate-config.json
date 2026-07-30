@@ -96,6 +96,15 @@
       "semanticCommitScope": "vite"
     },
     {
+      "description": "Release it ecosystem",
+      "matchPackageNames": [
+        "release-it",
+        "@release-it/*"
+      ],
+      "groupName": "Release it",
+      "semanticCommitScope": "release-it"
+    },
+    {
       "description": "Tailwind CSS and PostCSS toolchain",
       "matchPackageNames": [
         "tailwindcss",
