@@ -22,10 +22,9 @@
   "internalChecksAsSuccess": true,
   "configMigration": true,
   "packageRules": [
-
     {
       "matchUpdateTypes": ["patch"],
-      "minimumReleaseAge": "3 days",
+      "minimumReleaseAge": "7 days",
       "addLabels": ["patch"],
       "groupName": "all patch dependency bump",
       "groupSlug": "all-patch",
@@ -33,7 +32,7 @@
     },
     {
       "matchUpdateTypes": ["minor"],
-      "minimumReleaseAge": "7 days",
+      "minimumReleaseAge": "14 days",
       "addLabels": ["minor"],
       "automerge": false
     },
@@ -47,7 +46,22 @@
 
     {
       "matchUpdateTypes": ["digest"],
+      "minimumReleaseAge": "7 days",
       "addLabels": ["digest"],
+      "automerge": true
+    },
+
+    {
+      "matchManagers": ["github-actions"],
+      "groupName": "github actions",
+      "groupSlug": "github-actions",
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    },
+
+    {
+      "groupName": "definitelyTyped",
+      "matchPackagePrefixes": ["@types/"],
       "automerge": true
     },
 
@@ -72,7 +86,12 @@
       "automerge": true
     },
     {
-      "groupName": "vitest packages",
+      "extends": "packages:test",
+      "groupName": "test packages",
+      "automerge": true
+    },
+    {
+      "groupName": "test packages",
       "matchPackageNames": [
         "@vitest/**",
         "vitest",
@@ -81,28 +100,16 @@
       "automerge": true
     },
     {
-      "extends": "packages:test",
-      "groupName": "test packages",
-      "automerge": true
-    },
-    {
-      "extends": "packages:postcss",
-      "groupName": "postcss packages"
+      "description": "Playwright E2E testing",
+      "matchPackageNames": ["playwright", "@playwright/*"],
+      "groupName": "Playwright",
+      "semanticCommitScope": "playwright"
     },
     {
       "description": "Vite build tool and Vite plugins",
       "matchPackageNames": ["vite", "@vitejs/*", "vite-plugin-*"],
       "groupName": "Vite",
       "semanticCommitScope": "vite"
-    },
-    {
-      "description": "Release it ecosystem",
-      "matchPackageNames": [
-        "release-it",
-        "@release-it/*"
-      ],
-      "groupName": "Release it",
-      "semanticCommitScope": "release-it"
     },
     {
       "description": "Tailwind CSS and PostCSS toolchain",
@@ -112,31 +119,19 @@
         "postcss",
         "autoprefixer"
       ],
-      "groupName": "Tailwind CSS",
-      "semanticCommitScope": "tailwind"
+      "groupName": "CSS tooling",
+      "semanticCommitScope": "css-tooling"
     },
     {
-      "description": "Playwright E2E testing",
-      "matchPackageNames": ["playwright", "@playwright/*"],
-      "groupName": "Playwright",
-      "semanticCommitScope": "playwright"
+      "extends": "packages:postcss",
+      "groupName": "CSS tooling",
+      "semanticCommitScope": "css-tooling"
     },
     {
       "description": "Changesets - versioning and changelog management",
       "matchPackageNames": ["@changesets/*"],
       "groupName": "Changesets",
       "semanticCommitScope": "changesets"
-    },
-    {
-      "groupName": "vueuse",
-      "matchPackageNames": [
-        "@vueuse/**"
-      ]
-    },
-    {
-      "groupName": "definitelyTyped",
-      "matchPackagePrefixes": ["@types/"],
-      "automerge": true
     },
     {
       "enabled": false,
