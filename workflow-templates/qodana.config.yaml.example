@@ -17,7 +17,13 @@ profile:
       enabled: true
     - inspection: HardcodedPasswords
       enabled: true
+      ignore:
+        # mocked .env file with a hardcoded mock-password
+        - "packages/cli/shared/src/utils/directory/parseEnvFile.test.ts"
     - inspection: HttpUrlsUsage
       enabled: true
+      ignore:
+        # jsons include references to their schemas via HTTP - it's safe
+        - "**/content-type-schemas/schemas/*.json"
 include:
   - name: CheckDependencyLicenses
