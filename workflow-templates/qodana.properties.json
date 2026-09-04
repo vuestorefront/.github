@@ -1,0 +1,4 @@
+{
+    "name": "Qodana code quality scan",
+    "description": "Scan code quality and security with JetBrains Qodana. Replaces SonarCloud."
+}
